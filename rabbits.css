@@ -1,0 +1,65 @@
+body {
+	background-color: lightyellow;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+p {
+	color: red;
+}
+#intro {
+	color: green;
+}
+
+.listheader {
+	color: blue;
+}
+
+.important {
+	background-color: yellow;
+}
+
+ul strong {
+	color: brown;
+}
+
+ol li{ 
+color: purple;
+ }
+
+#reasons li {
+	color: turquoise;
+}
+
+p.important {
+	color: blue;
+}
+
+a {
+	color: #FFOOFF;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+#song {
+	font: italic bold 200% Courier, monospace;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+/*font*/
+/*1. font-style, font-weight, font-size, font-family*/
+/*3. line height */
+/*3. text is align center*/
+
+
+
+
+
+
+
+
+
+

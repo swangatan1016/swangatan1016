@@ -1,0 +1,25 @@
+ .rainbow { background-image: -webkit-gra
+ 	dient( linear, left top, right top, color-s
+ 		top(0, #fcc), color-stop(0.15, #fcf), co
+ 		lor-stop(0.3, #ccf), color-stop(0.45, #cff), 
+ 		color-stop(0.6, #cfc),color-stop(0.75, #cfc), colo
+ 		-stop(0.9, #ffc), color-stop(1, #fcc) ); background-
+ 	age: gradient( linear, left top, right top, color-stop
+ 		(0, #fcc), color-stop(0.15, #fcf), color-stop
+ 		(0.3, #ccf), color-stop(0.45, #cff), color-stop(0
+ 			.6, #cfc),color-stop(0.75, #cfc), color-stop(0.
+ 			9, #ffc), color-stop(1, #fcc) ); color:transpa
+ 	rent; -webkit-background-clip: text; background-clip: 
+ <style>
+li{
+	color: aqua;
+
+
+}s
+p {
+	color: 	#ff00ff;
+	/*#000099*/}
+}
+#sean {
+	color: green;
+}

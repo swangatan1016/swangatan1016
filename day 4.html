@@ -1,0 +1,59 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Document</title>
+<link rel= "icon" href= "https://s.yimg.com/uu/api/res/1.2/GgXBUxhoLZNSnPi30JxDVA--/cT04NTtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/creatr-images/GLB/2016-06-21/5999baa0-37c9-11e6-9037-7bd22d60eae0_Screen-Shot-2016-06-21-at-11-55-49-AM.png.cf.jpg">
+
+<style>
+		#roll_dice {
+    background: red; 
+    background: -moz-linear-gradient( top ,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 255, 0, 1) 15%,
+        rgba(0, 255, 0, 1) 30%,
+        rgba(0, 255, 255, 1) 50%,
+        rgba(0, 0, 255, 1) 65%,
+        rgba(255, 0, 255, 1) 80%,
+        rgba(255, 0, 0, 1) 100%);
+    background: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0%, rgba(255, 0, 0, 1)), 
+        color-stop(15%, rgba(255, 255, 0, 1)),
+        color-stop(30%, rgba(0, 255, 0, 1)),
+        color-stop(50%, rgba(0, 255, 255, 1)),
+        color-stop(65%, rgba(0, 0, 255, 1)),
+        color-stop(80%, rgba(255, 0, 255, 1)),
+        color-stop(100%, rgba(255, 0, 0, 1)));
+	}
+}
+</style>
+</head>
+
+<body>
+
+
+
+<p id="paragraph"></p>
+<button id="roll_dice" onclick="rollDice()"> Roll Dice</button>
+<script>
+window.onload = function() {
+	document.querySelector("p").innerHTML = "Awesome";
+	console.log("It works");
+}
+console.log("I am faster then Bolt");
+var dice = ["one", "two", "three", "four", "five", "six"]; //Array
+
+function rollDice() {
+	var number = Math.round(Math.random() * 5);
+	document.querySelector("p").innerHTML = dice[number];
+}
+
+
+</script>
+
+</body>
+
+
+
+</html>
+
+
